@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "digital-garden",
+    title: "Digital Garden",
   },
   plugins: [
     "gatsby-plugin-mdx",
