@@ -1,13 +1,11 @@
 import * as React from "react";
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
 
 const IndexPage = () => {
   return (
-    <main>
-      <title>Digital Garden Starter</title>
-      <Navbar />
+    <Layout pageTitle="Digital Garden Starter">
       <h1>Welcome to my Digital Garden!</h1>
-    </main>
+    </Layout>
   );
 };
 
