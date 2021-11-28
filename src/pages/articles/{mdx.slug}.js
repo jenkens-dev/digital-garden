@@ -1,9 +1,9 @@
 import * as React from "react";
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 
-const Article = ({ data }) => {
+const Blog = ({ data }) => {
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
       <p>{data.mdx.frontmatter.date}</p>
@@ -24,4 +24,4 @@ export const query = graphql`
   }
 `;
 
-export default Article;
+export default Blog;
